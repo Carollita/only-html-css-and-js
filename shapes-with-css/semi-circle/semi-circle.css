@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #844c9e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semi-circle {
+  background-color: #fff;
+  height: 150px;
+  width: 300px;
+  border-radius: 150px 150px 0 0;
+  border: 2.5px solid #353839;
+}
