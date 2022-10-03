@@ -15,7 +15,7 @@ body{
 .triangle{
     height: 0;
     width: 0;
-    border-bottom: 250px solid #353839;
+    border-bottom: 250px solid #fff;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
 }
