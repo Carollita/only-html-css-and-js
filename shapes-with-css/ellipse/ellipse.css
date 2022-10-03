@@ -1,0 +1,21 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #79ff7b;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse{
+    background-color: #fff;
+    border: 2.5px solid #353839;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
