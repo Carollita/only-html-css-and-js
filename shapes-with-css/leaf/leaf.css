@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #6af18c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaf{
+    background-color: #fff;
+    height: 100vh;
+    border: 2.5px solid #353839;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px 0;
+}
