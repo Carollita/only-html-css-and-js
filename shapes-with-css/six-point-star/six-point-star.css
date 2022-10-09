@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #5c64ff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star{
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid #fff;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    position: relative;
+}
+
+.star::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 200px solid #fff;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* left: -130px;*/ 
+}
